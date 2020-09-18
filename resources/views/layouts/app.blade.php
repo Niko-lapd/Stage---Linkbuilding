@@ -30,6 +30,7 @@
     <div id="app">
         <nav class="navbar navbar-fixed-top home-nav navbar-expand-md navbar-light bg-white nav-index">
             <div class="container">
+                <img src="/img/LOO.png" alt="Logo">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{  'Linkbuilding' }}
                 </a>
@@ -40,13 +41,14 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-
                     </ul>
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
                         @guest
+                        <h6 style="padding-right:25px; padding-top:23.12px; padding-bottom:5.12px;">{{'Adverteerders'}}</h6>
+                        <h6 style="padding-right:380px; padding-top:23.12px; padding-bottom:5.12px;">{{'Influencers'}}</h6>
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                             </li>

@@ -5,9 +5,10 @@
     <div class="row text-center">
     		<div class="col-md-4"></div>
     		<div class="col-md-4 text-box">
-    			<h1>xander Box</h1>
+    			<h1><b>Content & influencer Marketing</b></h1>
+				<h1>Makkelijk gemaakt</h1>
     			<p>
-    				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+				Linkbuilding verbindt adverteerders met het miljoenenbereik van onze 3.600+ influencers. Ons platform maakt samenwerking tussen adverteerders en influencers gemakkelijk en efficient.
     			</p>
     		</div>
     		<div class="col-md-4"></div>
