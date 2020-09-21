@@ -171,9 +171,47 @@
                         </div>
                     </form>
                 </div>
+           
+
             </div>
+
+
         </div>
+
+</div>
+        
     </div>
+
+    
+        
+
+
+                
+
+              
+   
+
 </div>
-</div>
+<section>
+<div class = "indekijker" style = " ">
+                <P><b> In de kijker </b> <br>
+                Word in één klap zichtbaar bij onze adverteerders. </p>
+                
+              </div>
+           </section>   
+              
+                <div class = "kieszelf" style =  "width: 180px;">
+                <P><b> Kies zelf </b> <br>
+               bepaal zelf of welke campagnes je pitcht of welke (affiliate) links je plaats in je content. </p>
+                
+              </div>
+
+              <div class = "verdien" style = "width: 180px;">
+                <P><b> Verdien </b> <br>
+               Ontvang vergoeding voor jouw unieke content (en promotie) </p>
+                
+              
+              </div>
 @endsection
+
+  
