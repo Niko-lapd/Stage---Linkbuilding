@@ -16,6 +16,7 @@
         <div class="col-md-6 bg-orange account-box text-right">
         	<div class="mr-4">
 			<h6 style="margin-top:40px;"class="mt-5">Adverteerder</h6>
+			<h6 style="margin-top:40px;"class="mt-5">Adverteerder</h6>
 				<h2 style=" margin-top:0px;" class="mt-5">Laat influencers</h2>
 				<h4 class="mt-5">
 					Over je merk schrijven en 
