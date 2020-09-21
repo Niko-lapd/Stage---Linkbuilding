@@ -1,0 +1,65 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.home-nav {
+  font-size: 25px;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(255,255,255, 0) !important;
+}
+
+.text-box {
+	width: 100%;
+	min-height: 30vh;
+	margin-top: 10vh;
+	height: 100%;
+}
+
+.account-box {
+	width: 100%;
+	min-height: 35vh;
+	height: 100%;
+}
+
+.bg-white {
+	background-color: #fff !important;
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: red !important;
+  transition: background-color 200ms linear;
+}
+
+.nav-index {
+	z-index: 1;
+}
+
+.test-box {
+	width: 100%;
+	min-height: 300vh;
+	height: 100%;
+}
+
+.bg-orange {
+	color: #000;
+	background-color: #fbb034;
+	background-image: -webkit-linear-gradient(bottom right, #fbb034 0%, #ffdd00 74%);
+	background-image: -o-linear-gradient(bottom right, #fbb034 0%, #ffdd00 74%);
+	background-image: linear-gradient(to top left, #fbb034 0%, #ffdd00 74%);
+}
+
+.bg-blue {
+	color: #000;
+	background-color: #63a4ff;
+	background-image: -webkit-linear-gradient(bottom right, #63a4ff 0%, #83eaf1 74%);
+	background-image: -o-linear-gradient(bottom right, #63a4ff 0%, #83eaf1 74%);
+	background-image: linear-gradient(to top left, #63a4ff 0%, #83eaf1 74%);
+}
