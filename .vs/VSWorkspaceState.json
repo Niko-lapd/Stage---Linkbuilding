@@ -11,6 +11,6 @@
     "\\resources\\views\\layouts",
     "\\routes"
   ],
-  "SelectedNode": "\\public\\css\\custom.css",
+  "SelectedNode": "\\resources\\views\\welcome.blade.php",
   "PreviewInSolutionExplorer": false
 }
