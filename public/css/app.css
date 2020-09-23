@@ -8601,6 +8601,32 @@ button.bg-dark:focus {
   padding-right: 1rem !important;
 }
 
+.footer {
+background: #17293b;
+color: #d3d3d3;
+height: 217px;
+position: relative;
+padding-top: 8px;
+}
+
+
+.footer .footer-content {
+  border: 1px solid red;
+  height:179px;
+}
+
+.footer .footer-bottom {
+background: black;
+color: #d3d3d3;
+height:38px;
+width:100%;
+text-align:center;
+position: absolute;
+bottom: 0px;
+padding-top: 8px;
+ 
+}
+
 .pb-3,
 .py-3 {
   padding-bottom: 1rem !important;
@@ -8627,7 +8653,7 @@ button.bg-dark:focus {
 
 .pb-4,
 .py-4 {
-  padding-bottom: 1.5rem !important;
+  /* padding-bottom: 1.5rem !important; */
 }
 
 .pl-4,
