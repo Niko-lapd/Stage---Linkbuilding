@@ -96,3 +96,24 @@ body {
 	padding-top: 8px;
 	 
 	}
+	.quotatie-voorbeschrijving {
+		height:213px;
+		padding-left: 360px;
+		font-weight: 300;
+		text-align: right;
+		margin: 12px 0;
+	    box-sizing:content-box;
+	    padding-top:35px;
+    	text-align:right;
+	    height:200px;
+	    width:850px; 
+	    padding-left:360px;
+	    font-size: 2em;
+	    font-weight: 300;
+		font-style: italic;
+	    line-height: 1.3em;
+		text-align: right;
+	}
+	.hoe-het-werkt-adverteerder {
+		height: 501px;
+	}
