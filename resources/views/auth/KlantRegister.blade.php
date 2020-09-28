@@ -1,10 +1,42 @@
 @extends('layouts.app')
 
 @section('content')
+
+<br><br><br>
+<div class = "schrijfjein" style = "background-color: #6cb2eb; padding-left: 50px; padding-top: 50px; width: 500px; padding-right: 50px; padding-bottom: 50px; margin-left: 75px;">
+<p><b> Schrijf je gratis in</b></p><br>
+Schrijf en promoot authentieke content voor adverteerders via jouw kanalen.<p>
+<p>________________________________________________________<p>
+<ul>
+<li>Krijg betaald per artikel/video/post of affiliate-link.</li>
+<li>Maak een artikel, video of foto voor het merk.</li>
+<li>inschrijven is gratis.</li>
+</ul>
+</div>
+<br>
+<div class = "quote" style = "background-color: white;">
+<center>
+<P><i> Dankzij deze site krijg ik betaald om te schrijven over mijn hobby!</i><br>
+<b> Piet Petersma </b> </p>
+</center>
+
+</div>
 <div class="img-register">
 <div class="container">
     <div class="row">
-        <div class="col-md-6 mt-5">KLANT</div>
+    <div class = "hoewerkthetinfluencer" style= "float: left; border: 5px solid #6cb2eb; padding: 10px;">
+    <p><b> Hoe werkt het? </b><br>
+    ________________________________<br>
+    <ol>
+    <li> Schrijf je gratis hiernaast in. </li><br>
+    <li> Pitch in op een briefing.</li><br>
+    <li> Onderhandel met een adverteerder.</li><br>
+    <li> Creëer en promoot. </li><br>
+    <li> Ontvang je vergoeding</li><br>
+    </ol>
+
+    </div>
+      
         <div class="col-md-6 mt-5">
             <div class="card">
                 <div class="card-body">
@@ -121,5 +153,27 @@
         </div>
     </div>
 </div>
+<div class= "voordeleninfluencers">
+<div class= "indekijker" style = "float: left; padding-left:40px; width: 300px; background-color:#6cb2eb; margin-left: 100px; margin-top: 70px;">
+<p><b> In de kijker </b><br>
+_____________________________<br>
+Word in één klap zichtbaar bij onze duizenden adverteerders.</P>
+</div>
+<div class= "kieszelf" style = "float: left; padding-left:40px; width: 300px; background-color:#6cb2eb; margin-left: 100px; margin-top: 70px;" >
+<p><b> Kies zelf </b><br>
+_____________________________<br>
+Bepaal zelf op welke campagnes je pitcht of welke (affiliate) links je plaatst in je content.</P>
+</div>
+<div class= "Verdien" style = "float: left; padding-left:40px; width: 300px; background-color:#6cb2eb; margin-left: 100px; margin-top: 70px;">
+<p><b> Verdien</b><br>
+_____________________________<br>
+Ontvang vergoeding voor jouw unieke content (en promotie).</P>
+</div>
+
+
+</div>
+
+
+
 </div>
 @endsection
