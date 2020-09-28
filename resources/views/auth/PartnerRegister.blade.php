@@ -4,7 +4,6 @@
 <div class="img-register">
 <div class="container">
     <div class="row">
-        <div class="col-md-6 mt-5">PArtner</div>
         <div class="col-md-6 mt-5">
             <div class="card">
                 <div class="card-body">
@@ -122,4 +121,13 @@
     </div>
 </div>
 </div>
+<div class="quotatie-voorbeschrijving">
+<blockquote style="box-sizing:border-box;padding-right:200px;padding-top:125px;">
+"Het is een pluspunt dat de influencers </br> zelf met voorstellen komen.
+</blockquote>
+</div>
+<div class="hoe-het-werkt-adverteerder">
+
+</div>
+@include('footer')
 @endsection
