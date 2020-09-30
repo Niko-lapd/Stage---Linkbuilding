@@ -116,4 +116,30 @@ body {
 	}
 	.hoe-het-werkt-adverteerder {
 		height: 501px;
+		background-color: #eee;
+		align-content: center;
+	}
+	.Cases-voorpagina{
+		height:480px;
+		text-align: center;
+	}
+	.Campagne-voorpagina {
+		height:476.5px;
+		background-color: #eee;
+		text-align: center;
+	}
+	.Abboe-voorpagina {
+		height: 347px;
+		text-align: center;
+	}
+	.Voordelen-voorpagina
+	{
+		height: 407px;
+		background-color: #eee;
+		text-align: center;
+	}
+	.inschrijven-voorpagina {
+		height: 346px;
+		background-color: deepskyblue;
+		text-align: center;
 	}
