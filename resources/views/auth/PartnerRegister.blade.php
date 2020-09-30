@@ -127,7 +127,22 @@
 </blockquote>
 </div>
 <div class="hoe-het-werkt-adverteerder">
-
+@include('slideshow')
+</div>
+<div class="Cases-voorpagina">
+@include('cases')
+</div>
+<div class="Campagne-voorpagina">
+@include('Campagnes')
+</div>
+<div class="Abboe-voorpagina">
+@include('Abbieo')
+</div>
+<div class="Voordelen-voorpagina">
+@include('Voordeeltjes')
+</div>
+<div class="inschrijven-voorpagina">
+@include('inschrijven-voorpagina')
 </div>
 @include('footer')
 @endsection
