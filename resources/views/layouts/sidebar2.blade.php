@@ -46,28 +46,77 @@
                         <a href="/partner/dashboard"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
                     </li>
                     <li class="{{ (request()->segment(2) == 'offers') ? 'active' : '' }}">
-                        <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false">Offers</a>
+                        <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false">Martkplaats</a>
                         <ul class="collapse list-unstyled" id="pageSubmenu1">
                             <li class="{{ (request()->segment(3) == 'overzicht') ? 'active' : '' }}">
-                                <a href="/partner/offers/overzicht">Overzicht</a>
+                                <a href="/partner/offers/overzicht">Kanalen</a>
                             </li>
                             <li class="{{ (request()->segment(3) == 'maken') ? 'active' : '' }}">
-                                <a href="/partner/offers/maken">Aanmaken</a>
+                                <a href="/partner/offers/maken">Influencers</a>
                             </li>
-                            <li><a href="#">Page 3</a></li>
                         </ul>
                     </li>
 
                     <li class="{{ (request()->segment(2) == 'partners') ? 'active' : '' }}">
-                        <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false">Partners</a>
+                        <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false">Adverteerder</a>
                         <ul class="collapse list-unstyled" id="pageSubmenu2">
                             <li class="{{ (request()->segment(3) == 'overzicht') ? 'active' : '' }}">
-                                <a href="/partners/klant/overzicht">Overzicht</a>
+                                <a href="/partners/klant/overzicht">Introductie</a>
                             </li>
                             <li class="{{ (request()->segment(3) == 'offers') ? 'active' : '' }}">
-                                <a href="/partners/klant/offers">Offers</a>
+                                <a href="/partners/klant/offers">Dashboard</a>
                             </li>
-                            <li><a href="#">Page 3</a></li>
+                            <li><a href="#">Campagnes</a></li>
+                            <li><a href="#">Opdrachten</a></li>
+                            <li><a href="#">Statistieken</a></li>
+                            <li><a href="#">Betalingen</a></li>
+                        </ul>
+                    </li>
+                    <li class="{{ (request()->segment(2) == 'partners') ? 'active' : '' }}">
+                        <a href="#pageSubmenu3" data-toggle="collapse" aria-expanded="false">Partners</a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu3">
+                            <li class="{{ (request()->segment(3) == 'overzicht') ? 'active' : '' }}">
+                                <a href="/partners/klant/overzicht">Publishers</a>
+                            </li>
+                            <li class="{{ (request()->segment(3) == 'offers') ? 'active' : '' }}">
+                                <a href="/partners/klant/offers">Affiliate netwerken</a>
+                            </li>
+                            <li><a href="#">Adverteerders</a></li>
+                            <li><a href="#">Partnerships</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="{{ (request()->segment(2) == 'partners') ? 'active' : '' }}">
+                        <a href="#pageSubmenu4" data-toggle="collapse" aria-expanded="false">Bedrijf</a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu4">
+                            <li class="{{ (request()->segment(3) == 'overzicht') ? 'active' : '' }}">
+                                <a href="/partners/klant/overzicht">Contact</a>
+                            </li>
+                            <li class="{{ (request()->segment(3) == 'offers') ? 'active' : '' }}">
+                                <a href="/partners/klant/offers">Over Ons</a>
+                            </li>
+                            <li><a href="#">Abonnementen</a></li>
+                            <li><a href="#">Referral Programma</a></li>
+                            <li><a href="#">Ambassador</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Algemene Voorwarden</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="{{ (request()->segment(2) == 'partners') ? 'active' : '' }}">
+                        <a href="#pageSubmenu5" data-toggle="collapse" aria-expanded="false">fAQ</a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu5">
+                            <li class="{{ (request()->segment(3) == 'overzicht') ? 'active' : '' }}">
+                                <a href="/partners/klant/overzicht">Algemeen</a>
+                            </li>
+                            <li class="{{ (request()->segment(3) == 'offers') ? 'active' : '' }}">
+                                <a href="/partners/klant/offers">Publishers</a>
+                            </li>
+                            <li><a href="#">Installatie</a></li>
+                            <li><a href="#">Adverteerders</a></li>
+                            <li><a href="#">SEO</a></li>
+                            <li><a href="#">Terminologie</a></li>
                         </ul>
                     </li>
                 </ul>
