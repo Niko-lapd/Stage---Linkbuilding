@@ -48,6 +48,8 @@ Route::post('order/checkout/order/now', 'dashboards\CustomerController@checkout'
 Route::get('/partner/dashboard', 'dashboards\PartnerController@index');
 Route::get('/partner/offers/overzicht', 'dashboards\PartnerController@OfferOverzicht');
 Route::get('/partner/offers/maken', 'dashboards\PartnerController@OfferCreate');
+Route::get('/partner/klant/CampagnesOverzicht', 'dashboards\PartnerController@OfferCampagneOverzicht');
+Route::get('/partner/klant/campagneaanmaken', 'dashboards\PartnerController@OfferCampagneAanmaken');
 Route::get('/partner/offers/overzicht/{id}', 'dashboards\PartnerController@show');
 Route::get('/partner/offers/overzicht/edit/{id}', 'dashboards\PartnerController@edit');
 Route::get('/partner/offer/verwijder/{id}', 'dashboards\PartnerController@destroy');
