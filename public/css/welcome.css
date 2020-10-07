@@ -158,3 +158,13 @@ body {
 		background-color: deepskyblue;
 		text-align: center;
 	}
+	.Testjewow {
+		flex: 0 0 50%;
+		max-width: 50%;
+		position: relative;
+		width: 100%;
+		padding-right: 15px;
+		padding-left: 15px;
+		padding-top: 120px;
+		margin-left: 285px;
+	}
