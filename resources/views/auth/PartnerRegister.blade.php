@@ -4,7 +4,7 @@
 <div class="img-register">
 <div class="container">
     <div class="row">
-        <div class="col-md-6 mt-5">
+        <div class="Testjewow">
             <div class="card">
                 <div class="card-body">
                     <form method="POST" action="{{ route('partner-register') }}">
