@@ -37,6 +37,16 @@ class PartnerController extends Controller
         return view('partner.offers.create');
     }
 
+    public function OfferCampagneOverzicht()
+    {
+        return view('partner.klant.CampagnesOverzicht');
+    }
+
+    public function OfferCampagneAanmaken()
+    {
+        return view('partner.klant.campagneaanmaken');
+    }
+
 
 
 

@@ -66,7 +66,7 @@
                             <li class="{{ (request()->segment(3) == 'offers') ? 'active' : '' }}">
                                 <a href="/partners/klant/offers">Dashboard</a>
                             </li>
-                            <li><a href="#">Campagnes</a></li>
+                            <li><a href="/partner/klant/CampagnesOverzicht">Campagnes</a></li>
                             <li><a href="#">Opdrachten</a></li>
                             <li><a href="#">Statistieken</a></li>
                             <li><a href="#">Betalingen</a></li>
