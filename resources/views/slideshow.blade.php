@@ -20,7 +20,7 @@
 </script>
 <div>
             <img src="/img/slideshow/1.png" id ="slide" alt="" width="705" height="320">
-          <button onclick="mySlide('prev');"><</button>
-          <button onclick="mySlide('next');">></button>
+          <button class="slidertjebuttontje1" onclick="mySlide('prev');"><</button>
+          <button class="slidertjebuttontje2" onclick="mySlide('next');">></button>
 </div>
 
