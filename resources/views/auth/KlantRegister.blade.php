@@ -3,6 +3,7 @@
 @section('content')
 
 <br><br><br>
+<div class = "inschrijfinformatieinfluencer">
 <div class = "schrijfjein" style = "background-color: #6cb2eb; padding-left: 50px; padding-top: 50px; width: 500px; padding-right: 50px; padding-bottom: 50px; margin-left: 75px;">
 <p><b> Schrijf je gratis in</b></p><br>
 Schrijf en promoot authentieke content voor adverteerders via jouw kanalen.<p>
@@ -12,6 +13,10 @@ Schrijf en promoot authentieke content voor adverteerders via jouw kanalen.<p>
 <li>Maak een artikel, video of foto voor het merk.</li>
 <li>inschrijven is gratis.</li>
 </ul>
+</div>
+<div class ="inschrijfplaatje"style = "float: right;">
+<P> Hier komt een plaatje </P>
+</div>
 </div>
 <br>
 <div class = "quote" style = "background-color: white;">
@@ -122,6 +127,13 @@ Schrijf en promoot authentieke content voor adverteerders via jouw kanalen.<p>
                                 <input id="password-confirm" placeholder="Password confirm*" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
                             </div>
                         </div>
+                        <div class = "form-group radiobutton">
+                        <center>
+                        <input type="checkbox" name="privacypolicy" value="accepteer" required /><a> Ik ga akkoord met de Privacy Policy </a> <br>
+                         <input type="checkbox" name="algemenevoorwaarden" value="accepteer" required /><a> Ik ga akkoord met de Algemene Voorwaarden & Aanvullende affiliate voorwaarden </a>
+                         <center>
+ 
+                        </div>
 
 {{--                         <div class="form-group row justify-content-center">
                             <div class="col-md-6">
@@ -154,17 +166,17 @@ Schrijf en promoot authentieke content voor adverteerders via jouw kanalen.<p>
     </div>
 </div>
 <div class= "voordeleninfluencers">
-<div class= "indekijker" style = "float: left; padding-left:40px; width: 300px; background-color:#6cb2eb; margin-left: 100px; margin-top: 70px;">
+<div class= "indekijker" style = "float: left; padding:40px; width: 300px; background-color:#6cb2eb; margin-left: 300px; margin-top: 70px;">
 <p><b> In de kijker </b><br>
 _____________________________<br>
 Word in één klap zichtbaar bij onze duizenden adverteerders.</P>
 </div>
-<div class= "kieszelf" style = "float: left; padding-left:40px; width: 300px; background-color:#6cb2eb; margin-left: 100px; margin-top: 70px;" >
+<div class= "kieszelf" style = "float: left; padding:40px; width: 300px; background-color:#6cb2eb; margin-left: 100px; margin-top: 70px;" >
 <p><b> Kies zelf </b><br>
 _____________________________<br>
 Bepaal zelf op welke campagnes je pitcht of welke (affiliate) links je plaatst in je content.</P>
 </div>
-<div class= "Verdien" style = "float: left; padding-left:40px; width: 300px; background-color:#6cb2eb; margin-left: 100px; margin-top: 70px;">
+<div class= "Verdien" style = "float: left; padding:40px; width: 300px; background-color:#6cb2eb; margin-left: 100px; margin-top: 70px;">
 <p><b> Verdien</b><br>
 _____________________________<br>
 Ontvang vergoeding voor jouw unieke content (en promotie).</P>
@@ -176,4 +188,7 @@ Ontvang vergoeding voor jouw unieke content (en promotie).</P>
 
 
 </div>
+
+<br>
+@include('footer')
 @endsection
