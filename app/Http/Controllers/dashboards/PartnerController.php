@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request; 
 use App\Offer; 
 use Auth;
+use App\CampagneT;
 
 class PartnerController extends Controller
 {
@@ -44,7 +45,9 @@ class PartnerController extends Controller
 
     public function OfferCampagneAanmaken()
     {
-        return view('partner.klant.campagneaanmaken');
+        $users = CampagneT::get();
+
+        return view('partner.klant.campagneaanmaken', compact('users'));
     }
 
 

@@ -6,6 +6,13 @@
 <div class="EditCampaignForm">
     Zet een marketingcampagne op voor je merk om influencers en publishers je product of dienst te laten promoten onder hun doelgroep. Bij aanmaken van deze  campagne is die terug te vinden  bij concepten. Hulp nodig? Bekijk dan Deze tutorial.
 </div>
+<div>
+@foreach($users as $user)
+{{$user->fname}} {{$user->lname}}
+@endforeach
+</div>
+
+
 <div id="Box">
     <h3>Introductie</h3>
     <p><span id="dots"></span><span id="more">
